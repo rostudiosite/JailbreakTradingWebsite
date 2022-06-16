@@ -89,11 +89,13 @@ button:hover {
   }
 
   #selectionimage {
-    height: 80%;
-    width: 80%;
+    height: 15.5rem;
+    width: 20rem;
+    object-fit: cover;
     margin: auto;
     display: block;
     border-radius: 1.3rem;
+    overflow: hidden;
   }
 
 /* Search Bar */
@@ -109,7 +111,7 @@ button:hover {
 
     font-size: 12px;
 
-    background-color: #1b1b1b;
+    background-color: #111111;
     color: white;
 }
 
@@ -128,6 +130,13 @@ button:hover {
     grid-gap: 30px;
 
 }
+
+#list {
+    padding-inline-start: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 30px;
+  }
 
 /* Boxes */
 

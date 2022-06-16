@@ -2,7 +2,7 @@ const charactersList = document.getElementById('list');
 const searchBar = document.getElementById('searchBar');
 
 let hpCharacters = [
-    {"name": "Beignet", "value": "1.5M" ,"image": '/media/images/Beignet_Icon.png', "link": "/"}
+    {"name": "Beignet", "value": "1.5M" ,"image": '/media/images/Beignet_Icon.png', "link": "/"},
 ];
 
 
@@ -26,7 +26,7 @@ const displayCharacters = (characters) => {
 
                     <div class="text" style="font-size: 2.5rem; font-weight: 600;">${character.name}</div>
                     <img id="selectionimage" src="${character.image}" />
-                    <div class="text" style="font-size: 2rem; font-weight: 600;">${character.value}</div>
+                    <div class="text" style="font-size: 2rem; font-weight: 600; color: rgb(0, 255, 0);">Value: ${character.value}</div>
 
                 </a>
             </div>

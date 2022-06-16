@@ -2,8 +2,7 @@ const charactersList = document.getElementById('list');
 const searchBar = document.getElementById('searchBar');
 
 let hpCharacters = [
-    {"name": "Brulee", "value": "6.5M" ,"image": '/media/images/Brulee_Icon.png', "link": "/"},
-    {"name": "Beignet", "value": "1.5M" ,"image": '/media/images/Beignet_Icon.png', "link": "/"},
+    {"name": "Brulee", "value": "6.5M" ,"image": '/media/images/Brulee_Icon.png', "link": "/vehicles/brulee.html"},
     {"name": "Beignet", "value": "1.5M" ,"image": '/media/images/Beignet_Icon.png', "link": "/"},
 ];
 

@@ -9,7 +9,7 @@ const Estimated_Copies = document.getElementById('Estimated_Copies');
 const Demand = document.getElementById('Demand');
 
 let Info = [
-    {"Header1": "Brulee", "Image1" : "/media/images/Brulee.png", "Value" : "6,500,000", "Original_Price" : "500,000", "Max_Speed" : "480" , "Estimated_Copies" : "193,846", "Demand": "90/100", "Text" : "The Brulee, also known as the Bugatti Veyron, is the current fastest vehicle in jailbreak. It is really rare due to its specifications and being unobtainable. This vehicle was available from June 4th, 2017 to March 8th, 2020 for 500,000 in-game cash next to the jewelry store and has since then been replaced with the Eclaire. Even though it has been available for quite a while, it is still extremely rare and in high demand. At that time, jailbreak currency was much more valuable due to it being harder to receive."}
+    {"Header1": "Beignet", "Image1" : "/media/images/Beignet.png", "Value" : "6,500,000", "Original_Price" : "500,000", "Max_Speed" : "280" , "Estimated_Copies" : "Unknown", "Demand": "65/100",  "Text" : "The Beignet was a seasonal vehicle in Jailbreak made by RallySubbie and was featured as the grand prize in Season 6: Race to the Top. It is currently the third fastest vehicle in the game. The Beignet could have been obtained by reaching Level 10 through Contracts. It has a 500,000 value in the garage (for sorting purposes). It could have been found at the Season Arena during Season 6. The Beignet can be described as an Eclaire with a better grip; its launch and acceleration rates are practically equal, but the Beignet will get ahead since it loses less speed in corners. This makes the Beignet one of the top-performing vehicles in the game, only beaten by the Roadster and the Volt in short distances, and the Torpedo and Brulee in long distances."}
 ];
 
 const displayInformation = (Info) => {
@@ -17,7 +17,7 @@ const displayInformation = (Info) => {
     const htmlValue = Info
     .map((Info) => {
         return `
-        Value: ${Info.Value}
+        Estimated Value: ${Info.Value}
     `;
     })
     .join(''); 

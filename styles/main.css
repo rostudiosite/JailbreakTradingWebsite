@@ -59,7 +59,7 @@ button:hover {
 
     color: white;
 
-    font-family: 'Changa', sans-serif;
+    font-family: 'Viga', sans-serif;
 
     text-align: center;
 
@@ -69,7 +69,7 @@ button:hover {
 
     color: white;
 
-    font-family: 'Changa', sans-serif;
+    font-family: 'Lexend', sans-serif;
 
     text-align: left;
 
@@ -85,7 +85,7 @@ button:hover {
 
     border-radius: 1rem;
 
-    font-family: 'Changa', sans-serif;
+    font-family: 'Viga', sans-serif;
 
     display: table; /* keep the background color wrapped tight */
     margin: 0px auto 0px auto; /* keep the table centered */

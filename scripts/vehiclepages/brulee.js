@@ -8,7 +8,7 @@ const Max_Speed = document.getElementById('Max_Speed');
 const Estimated_Copies = document.getElementById('Estimated_Copies');
 
 let Info = [
-    {"Header1": "Brulee", "Image1" : "/media/images/Brulee.png", "Value" : "6,500,000", "Original_Price" : "500,000", "Max_Speed" : "480" , "Estimated_Copies" : "unknown", "Text" : "The Brulee, also known as the Bugatti Veyron, is the current fastest vehicle in jailbreak. It is really rare due to its specifications and being unobtainable. This vehicle was available from June 4th, 2017 to March 8th, 2020 for 500,000 in-game cash next to the jewelry store and has since then been replaced with the Eclaire. Even though it has been available for quite a while, it is still extremely rare and in high demand. At that time, jailbreak currency was much more valuable due to it being harder to receive."}
+    {"Header1": "Brulee", "Image1" : "/media/images/Brulee.png", "Value" : "6,500,000", "Original_Price" : "500,000", "Max_Speed" : "480" , "Estimated_Copies" : "193,846", "Text" : "The Brulee, also known as the Bugatti Veyron, is the current fastest vehicle in jailbreak. It is really rare due to its specifications and being unobtainable. This vehicle was available from June 4th, 2017 to March 8th, 2020 for 500,000 in-game cash next to the jewelry store and has since then been replaced with the Eclaire. Even though it has been available for quite a while, it is still extremely rare and in high demand. At that time, jailbreak currency was much more valuable due to it being harder to receive."}
 ];
 
 const displayInformation = (Info) => {

@@ -57,7 +57,7 @@ const displayInformation = (Info) => {
     `;
     })
     .join(''); 
-    Demand.innerHTML = htmlCopies;
+    Demand.innerHTML = htmlDemand;
 
 
 

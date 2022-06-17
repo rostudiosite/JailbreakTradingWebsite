@@ -4,6 +4,7 @@ const searchBar = document.getElementById('searchBar');
 let hpCharacters = [
     {"name": "Brulee", "value": "5.8M" ,"image": '/media/images/Brulee_Icon.png', "link": "/vehicles/brulee"},
     {"name": "Beignet", "value": "3.5M" ,"image": '/media/images/Beignet_Icon.png', "link": "/vehicles/beignet"},
+    {"name": "M12 Molten", "value": "3.6M" ,"image": '/media/images/Molten_Icon.png', "link": "/vehicles/m12molten"},
 ];
 
 

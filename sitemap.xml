@@ -37,6 +37,149 @@
   <changefreq>daily</changefreq>
 </url>
 
+<url>
+  <loc>https://jbvalues.com/agent</loc>
+  <priority>1.00</priority>
+  <changefreq>daily</changefreq>
+</url>
+
+<url>
+  <loc>https://jbvalues.com/airtail</loc>
+  <priority>1.00</priority>
+  <changefreq>daily</changefreq>
+</url>
+
+<url>
+  <loc>https://jbvalues.com/arachnid</loc>
+  <priority>1.00</priority>
+  <changefreq>daily</changefreq>
+</url>
+
+<url>
+  <loc>https://jbvalues.com/banana</loc>
+  <priority>1.00</priority>
+  <changefreq>daily</changefreq>
+</url>
+
+<url>
+  <loc>https://jbvalues.com/beam</loc>
+  <priority>1.00</priority>
+  <changefreq>daily</changefreq>
+</url>
+
+<url>
+  <loc>https://jbvalues.com/blade</loc>
+  <priority>1.00</priority>
+  <changefreq>daily</changefreq>
+</url>
+
+<url>
+  <loc>https://jbvalues.com/celsior</loc>
+  <priority>1.00</priority>
+  <changefreq>daily</changefreq>
+</url>
+
+<url>
+  <loc>https://jbvalues.com/classic</loc>
+  <priority>1.00</priority>
+  <changefreq>daily</changefreq>
+</url>
+
+<url>
+  <loc>https://jbvalues.com/crewcapsule</loc>
+  <priority>1.00</priority>
+  <changefreq>daily</changefreq>
+</url>
+
+<url>
+  <loc>https://jbvalues.com/icebreaker</loc>
+  <priority>1.00</priority>
+  <changefreq>daily</changefreq>
+</url>
+
+<url>
+  <loc>https://jbvalues.com/jackrabbit</loc>
+  <priority>1.00</priority>
+  <changefreq>daily</changefreq>
+</url>
+
+<url>
+  <loc>https://jbvalues.com/jb8</loc>
+  <priority>1.00</priority>
+  <changefreq>daily</changefreq>
+</url>
+
+<url>
+  <loc>https://jbvalues.com/lia</loc>
+  <priority>1.00</priority>
+  <changefreq>daily</changefreq>
+</url>
+
+<url>
+  <loc>https://jbvalues.com/macron</loc>
+  <priority>1.00</priority>
+  <changefreq>daily</changefreq>
+</url>
+
+<url>
+  <loc>https://jbvalues.com/megalodon</loc>
+  <priority>1.00</priority>
+  <changefreq>daily</changefreq>
+</url>
+
+<url>
+  <loc>https://jbvalues.com/mighty</loc>
+  <priority>1.00</priority>
+  <changefreq>daily</changefreq>
+</url>
+
+<url>
+  <loc>https://jbvalues.com/posh</loc>
+  <priority>1.00</priority>
+  <changefreq>daily</changefreq>
+</url>
+
+<url>
+  <loc>https://jbvalues.com/raptor</loc>
+  <priority>1.00</priority>
+  <changefreq>daily</changefreq>
+</url>
+
+<url>
+  <loc>https://jbvalues.com/rattler</loc>
+  <priority>1.00</priority>
+  <changefreq>daily</changefreq>
+</url>
+
+<url>
+  <loc>https://jbvalues.com/steed</loc>
+  <priority>1.00</priority>
+  <changefreq>daily</changefreq>
+</url>
+
+<url>
+  <loc>https://jbvalues.com/suv</loc>
+  <priority>1.00</priority>
+  <changefreq>daily</changefreq>
+</url>
+
+<url>
+  <loc>https://jbvalues.com/torero</loc>
+  <priority>1.00</priority>
+  <changefreq>daily</changefreq>
+</url>
+
+<url>
+  <loc>https://jbvalues.com/torpedo</loc>
+  <priority>1.00</priority>
+  <changefreq>daily</changefreq>
+</url>
+
+<url>
+  <loc>https://jbvalues.com/volt4x4</loc>
+  <priority>1.00</priority>
+  <changefreq>daily</changefreq>
+</url>
 
 
 </urlset>

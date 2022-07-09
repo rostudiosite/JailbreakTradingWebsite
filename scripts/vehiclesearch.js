@@ -3,6 +3,17 @@ const searchBar = document.getElementById('searchBar');
 
 let Data = [];
 
+var setInnerHTML = function(elm, html) {
+    elm.innerHTML = html;
+    Array.from(elm.querySelectorAll("script")).forEach( oldScript => {
+      const newScript = document.createElement("script");
+      Array.from(oldScript.attributes)
+        .forEach( attr => newScript.setAttribute(attr.name, attr.value) );
+      newScript.appendChild(document.createTextNode(oldScript.innerHTML));
+      oldScript.parentNode.replaceChild(newScript, oldScript);
+    });
+  }
+
 searchBar.addEventListener('keyup', (e) => {
     const searchString = (e.target.value.toLowerCase()).trim();
 
@@ -31,6 +42,9 @@ const loadData = async () => {
 };
 
 const displayCharacters = (characters) => {
+
+    const adString = '<div class="ad-selectionbox"><script async="async" data-cfasync="false" src="//pl17449912.profitablecpmgate.com/c0bf3239b0ad9048ddb6febe91b85ec7/invoke.js"></script><div id="container-c0bf3239b0ad9048ddb6febe91b85ec7"></div></div>'
+
     const htmlString = characters
         .map((character) => {
             return `
@@ -46,7 +60,9 @@ const displayCharacters = (characters) => {
         `;
         })
         .join(''); 
-    charactersList.innerHTML = htmlString;
+
+    setInnerHTML(charactersList, htmlString + adString);
+
 };
 
 loadData();

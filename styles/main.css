@@ -122,6 +122,20 @@ button:hover {
     transition: all 0.5s ease;
   }
 
+  .trade-selectionbox {
+    background-color: rgb(20, 20, 20);
+    border-radius: 1rem;
+
+    width: 10rem;
+    height: 10rem;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    transition: all 0.5s ease;
+  }
+
   .ad-selectionbox {
     background-color: rgb(20, 20, 20);
     border-radius: 1rem;
@@ -139,6 +153,18 @@ button:hover {
     transition: all 0.5s ease;
   }
 
+  .ad-selectionbox:hover {
+    transform: scale(1.1);
+    background-color: rgb(0, 102, 255);
+    transition: all 0.5s ease;
+  }
+
+  .trade-selectionbox:hover {
+    transform: scale(1.1);
+    background-color: rgb(0, 102, 255);
+    transition: all 0.5s ease;
+  }
+
   .selectionbox a {
     color: transparent;
   }
@@ -150,6 +176,13 @@ button:hover {
     margin: auto;
     display: block;
     border-radius: 1.3rem;
+    overflow: hidden;
+  }
+
+  #trade-selectionimage {
+    width: 9.5rem;
+    margin: auto;
+    display: block;
     overflow: hidden;
   }
 
@@ -192,6 +225,22 @@ button:hover {
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     grid-gap: 0px;
   }
+
+  .list2 {
+
+    padding-inline-start: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(1px, 170px));
+    grid-gap: 0px;
+
+}
+
+#list2 {
+    padding-inline-start: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(1px, 170px));
+    grid-gap: 0px;
+}
 
 /* Boxes */
 
@@ -241,6 +290,30 @@ button:hover {
 
 }
 
+.box3 {
+
+    background: rgb(39, 39, 39);
+
+    border-radius: 1rem;
+
+    max-width: 85%;
+    max-height: fit-content;
+
+    min-width: none;
+    min-height: fit-content;
+
+    display: block;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 2rem;
+
+    overflow: hidden;
+
+    text-align: center;
+}
+
 .box-wide-blue {
 
     background: rgb(255,255,255);
@@ -269,6 +342,26 @@ button:hover {
     border-radius: 1rem;
 
     max-width: 85%;
+    max-height: fit-content;
+
+    min-width: none;
+    min-height: fit-content;
+
+    display: block;
+
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.box-wide-trade {
+
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgb(33, 33, 33) 100%);
+
+    border-radius: 1rem;
+
+    max-width: 100%;
     max-height: fit-content;
 
     min-width: none;
@@ -389,5 +482,23 @@ nav {
     color: aqua;
 
     transform: scale(1.1);
+
+}
+
+/* Popup */
+
+.popup {
+
+    background-color: rgba(0, 0, 0, 0.7);
+
+    display: none; 
+    position: fixed;
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+
+    overflow: scroll;
 
 }

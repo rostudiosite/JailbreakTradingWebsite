@@ -454,7 +454,7 @@ nav {
     position: relative;
 
     top: -40%;
-    right: 25px;
+    right: 10px;
 
     float: right;
 
@@ -465,13 +465,14 @@ nav {
 .nav_right a {
 
     color: white;
-    font-size: 1.2rem;
+    font-size: 100%;
+
 
     margin: 0 16px;
     font-weight: 600;
     text-decoration: none;
     transition: 0.4s;
-    padding: 8px 8px;
+    padding: 8px 0px;
 
     font-family: 'Changa', sans-serif;
 

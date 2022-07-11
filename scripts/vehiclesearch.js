@@ -61,7 +61,7 @@ const displayCharacters = (characters) => {
         })
         .join(''); 
 
-    setInnerHTML(charactersList, htmlString + adString);
+    setInnerHTML(charactersList, htmlString);
 
 };
 

@@ -24,6 +24,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&family=Viga&display=swap" rel="stylesheet">
 
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.8.0/dist/chart.min.js"></script>
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZT7MTPJFZW"></script>
     <script>
@@ -84,13 +86,25 @@
 
             </div>
 
-            <div style="padding-top: 1.5rem;"></div>
+            <div style="padding-top: 1rem;"></div>
 
             <div class="text" style="font-size: 3.3rem; font-weight: 600;">Overview</div>
 
             <div style="padding-top: 1rem;"></div>
 
             <div id = "Text" class="text2" style="font-size: 1.8rem; font-weight: 400; background-color: rgb(24, 24, 24); border-radius: 1rem;">Blank</div>
+
+            <div style="padding-top: 1rem;"></div>
+
+            <div class="text" style="font-size: 3.3rem; font-weight: 600;">Value Chart</div>
+
+            <div style="padding-top: 1rem;"></div>
+
+            <div class="box-wide-information">
+
+                <canvas id="myChart" width="500" height="160"></canvas>
+    
+            </div>
 
         </div>
 

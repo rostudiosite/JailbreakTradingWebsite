@@ -25,10 +25,51 @@ const loadData = async () => {
         Data = output[ItemNumber];
 
         displayInformation();
+
+        displayChart();
         
     }).catch(err => console.error(err));
 
 };
+
+const displayChart = () => {
+
+    const ctx = document.getElementById('myChart').getContext('2d');
+
+    const config = {
+        type: 'line',
+        data: {
+            labels: Data.ValueHistoryDate.split(" "),
+            datasets: [
+                
+            {
+                label: 'Value',
+                data: Data.ValueHistory.split(" "),
+                backgroundColor: [
+                    'rgba(255, 99, 132, 0.2)',
+                ],
+                borderColor: [
+                    'rgba(255, 99, 132, 1)',
+                ],
+                borderWidth: 1
+            },
+
+        ]
+        },
+        options: {
+            scales: {
+                y: {
+                    beginAtZero: false
+                }
+            }
+        }
+    };
+
+    const myChart = new Chart(ctx, config);
+
+    console.log(Data.ValueHistory.split(" "));
+
+} 
 
 const displayInformation = () => {
 

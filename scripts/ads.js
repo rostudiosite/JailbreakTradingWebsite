@@ -22,7 +22,7 @@ const displayAd = (characters) => {
 
     const randomElement = AdInfo[Math.floor(Math.random() * AdInfo.length)];
 
-    ad.innerHTML = '<a href="' + randomElement.Link + '" target="_blank"><img style = "width: 34rem; max-width: 90%;" src="' + randomElement.Image + '" alt="Advertisment"></a>'
+    ad.innerHTML = '<a href="' + randomElement.Link + '" target="_blank"><img style = "width: 36rem; max-width: 90%;" src="' + randomElement.Image + '" alt="Advertisment"></a>'
 
 };
 

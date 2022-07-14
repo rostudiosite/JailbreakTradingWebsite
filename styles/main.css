@@ -314,6 +314,29 @@ button:hover {
     text-align: center;
 }
 
+.box4 {
+
+    background: rgb(21, 21, 21);
+
+    border-radius: 1rem;
+
+    max-width: 100%;
+    max-height: 100%;
+
+    min-width: fit-content;
+    min-height: fit-content;
+
+    display: block;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    overflow: hidden;
+
+    text-align: center;
+
+}
+
 .box-wide-blue {
 
     background: rgb(255,255,255);

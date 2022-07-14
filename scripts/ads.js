@@ -22,7 +22,17 @@ const displayAd = (characters) => {
 
     const randomElement = AdInfo[Math.floor(Math.random() * AdInfo.length)];
 
-    ad.innerHTML = '<a href="' + randomElement.Link + '" target="_blank"><img style = "width: 36rem; max-width: 90%;" src="' + randomElement.Image + '" alt="Advertisment"></a>'
+    if (randomElement.Type == "Rectangle") {
+
+        ad.innerHTML = '<a href="' + randomElement.Link + '" target="_blank"><img style = "width: 38rem; max-width: 90%;" src="' + randomElement.Image + '" alt="Advertisment"></a>'
+
+    }
+
+    if (randomElement.Type == "Square") {
+
+        ad.innerHTML = '<a href="' + randomElement.Link + '" target="_blank"><img style = "width: 20rem; max-width: 50%;" src="' + randomElement.Image + '" alt="Advertisment"></a>'
+
+    }
 
 };
 

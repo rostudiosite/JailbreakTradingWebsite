@@ -45,12 +45,6 @@ const displayAd = (characters) => {
 
     }
 
-    if (randomElement.Type == "Ad") {
-
-        setInnerHTML(ad, "<div style='margin-left: auto; margin-right: auto; display: block; text-align: center; width: 50%;'><script data-cfasync='false' type='text/javascript' src='//p448752.clksite.com/adServe/banners?tid=448752_878487_0'></script></div>")
-
-    }
-
 };
 
 loadInfo();

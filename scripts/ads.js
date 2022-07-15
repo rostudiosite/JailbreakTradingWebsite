@@ -30,7 +30,7 @@ const displayAd = (characters) => {
 
     if (randomElement.Type == "Square") {
 
-        ad.innerHTML = '<a href="' + randomElement.Link + '" target="_blank"><img style = "width: 20rem; max-width: 50%;" src="' + randomElement.Image + '" alt="Advertisment"></a>'
+        ad.innerHTML = '<a href="' + randomElement.Link + '" target="_blank"><img style = "width: 20rem; max-width: 45%;" src="' + randomElement.Image + '" alt="Advertisment"></a>'
 
     }
 

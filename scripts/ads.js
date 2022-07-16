@@ -47,7 +47,7 @@ const displayAd = (characters) => {
 
     if (randomElement.Type == "AdAmazon1") {
 
-      ad.innerHTML = '<iframe src="//rcm-na.amazon-adsystem.com/e/cm?o=1&p=12&l=ur1&category=electronics&banner=1RJ5QAT5B55ECPXSXB82&f=ifr&linkID=673eab2b096819da49682e2a1916e091&t=jbvalues-20&tracking_id=jbvalues-20" width="300" height="250" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0" sandbox="allow-scripts allow-same-origin allow-popups allow-top-navigation-by-user-activation"></iframe>'
+      ad.innerHTML = '<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=jbvalues-20&marketplace=amazon&amp;region=US&placement=B07RZ74VLR&asins=B07RZ74VLR&linkId=3721438af1afe434a974565d1359b98f&show_border=false&link_opens_in_new_window=true&price_color=ffffff&title_color=00bfff&bg_color=000000"></iframe>'
       
     }
 

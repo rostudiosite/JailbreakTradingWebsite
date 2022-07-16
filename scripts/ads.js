@@ -45,6 +45,18 @@ const displayAd = (characters) => {
 
     }
 
+    if (randomElement.Type == "AdAmazon1") {
+
+      ad.innerHTML = '<iframe src="//rcm-na.amazon-adsystem.com/e/cm?o=1&p=12&l=ur1&category=electronics&banner=1RJ5QAT5B55ECPXSXB82&f=ifr&linkID=673eab2b096819da49682e2a1916e091&t=jbvalues-20&tracking_id=jbvalues-20" width="300" height="250" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0" sandbox="allow-scripts allow-same-origin allow-popups allow-top-navigation-by-user-activation"></iframe>'
+      
+    }
+
+    if (randomElement.Type == "AdAmazon2") {
+
+      ad.innerHTML = '<iframe src="//rcm-na.amazon-adsystem.com/e/cm?o=1&p=13&l=ur1&category=primemain&banner=1P2QF7E522R48KVM6DR2&f=ifr&linkID=9095e361f70073fd781513957238845b&t=jbvalues-20&tracking_id=jbvalues-20" width="468" height="60" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0" sandbox="allow-scripts allow-same-origin allow-popups allow-top-navigation-by-user-activation"></iframe>'
+      
+    }
+
 };
 
 loadInfo();

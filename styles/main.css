@@ -215,7 +215,7 @@ button:hover {
     padding-inline-start: 0;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    grid-gap: 0px;
+    grid-gap: 15px;
 
 }
 
@@ -223,7 +223,7 @@ button:hover {
     padding-inline-start: 0;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    grid-gap: 0px;
+    grid-gap: 20px;
   }
 
   .list2 {
@@ -231,7 +231,7 @@ button:hover {
     padding-inline-start: 0;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(1px, 170px));
-    grid-gap: 0px;
+    grid-gap: 5px;
 
 }
 
@@ -239,7 +239,7 @@ button:hover {
     padding-inline-start: 0;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(1px, 170px));
-    grid-gap: 0px;
+    grid-gap: 5px;
 }
 
 /* Boxes */
@@ -250,7 +250,7 @@ button:hover {
 
     border-radius: 1rem;
 
-    max-width: 85%;
+    max-width: 99%;
     max-height: fit-content;
 
     min-width: none;

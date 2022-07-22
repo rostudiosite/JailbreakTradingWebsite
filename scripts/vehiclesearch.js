@@ -43,8 +43,6 @@ const loadData = async () => {
 
 const displayCharacters = (characters) => {
 
-    const adString = '<div class="ad-selectionbox"><script async="async" data-cfasync="false" src="//pl17449912.profitablecpmgate.com/c0bf3239b0ad9048ddb6febe91b85ec7/invoke.js"></script><div id="container-c0bf3239b0ad9048ddb6febe91b85ec7"></div></div>'
-
     const htmlString = characters
         .map((character) => {
             return `

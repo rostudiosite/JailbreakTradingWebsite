@@ -186,6 +186,55 @@ button:hover {
     overflow: hidden;
   }
 
+
+
+
+  .selectionbox2 {
+    background-color: rgb(20, 20, 20);
+    border-radius: 1rem;
+    width: 21rem;
+    height: 21rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    transition: all 0.5s ease;
+  }
+
+  .selectionbox2:hover {
+
+    transform: scale(1.1);
+
+    transition: all 0.5s ease;
+
+  }
+
+  .selectionbox2 a {
+    color: transparent;
+  }
+
+  #selectionimage2 {
+
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+    border-radius: 1.3rem;
+
+    opacity: 0.4;
+    
+  }
+
+  #selectionimage2:hover {
+
+    opacity: 1;
+
+    transition: all 0.5s ease;
+
+  }
+
+
+
+
 /* Search Bar */
 
 #searchBar {
@@ -377,6 +426,26 @@ button:hover {
 
 }
 
+.box-wide-information2 {
+
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(24, 24, 24) 100%);
+
+    border-radius: 1rem;
+
+    max-width: 85%;
+    max-height: fit-content;
+
+    min-width: none;
+    min-height: fit-content;
+
+    display: block;
+
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
 .box-wide-trade {
 
     background: rgb(255,255,255);
@@ -472,6 +541,8 @@ nav {
 
 .nav_right{
 
+    max-width: 85%;
+
     display: flex;
 
     position: relative;
@@ -490,7 +561,6 @@ nav {
     color: white;
     font-size: 100%;
 
-
     margin: 0 16px;
     font-weight: 600;
     text-decoration: none;
@@ -500,6 +570,26 @@ nav {
     font-family: 'Changa', sans-serif;
 
 }
+
+@media screen and (max-width: 510px) {
+
+    .nav_right {
+
+        display: none;
+
+    }
+
+}
+
+@media screen and (min-width: 100%) {
+
+    .nav_right {
+
+        display: flex;
+
+    }
+        
+}    
 
 .nav_right a:hover {
 

@@ -25,6 +25,19 @@
   <changefreq>daily</changefreq>
 </url>
 
+<url>
+  <loc>https://jbvalues.com/blog</loc>
+  <priority>1.00</priority>
+  <changefreq>daily</changefreq>
+</url>
+
+
+<url>
+  <loc>https://jbvalues.com/blog/best-vehicles-jb</loc>
+  <priority>1.00</priority>
+  <changefreq>daily</changefreq>
+</url>
+
 
 <url>
   <loc>https://jbvalues.com/vehicles/brulee</loc>
@@ -184,6 +197,12 @@
 
 <url>
   <loc>https://jbvalues.com/vehicles/volt4x4</loc>
+  <priority>0.90</priority>
+  <changefreq>daily</changefreq>
+</url>
+
+<url>
+  <loc>https://jbvalues.com/vehicles/snake</loc>
   <priority>0.90</priority>
   <changefreq>daily</changefreq>
 </url>
